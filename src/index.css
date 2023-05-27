@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+body{
+    background-color: rgba(216, 216, 216, 0.637);
+}
+.cocktails-nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+    height: 5em;
+    box-shadow: 2px 2px 2px 2px rgba(245, 245, 245, 0.637);
+}
+.cocktails-nav h2{
+    color: green;
+}
+.cocktails-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+.cocktails-nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+#about-link{
+    text-decoration: none;
+    color: green;
+}
+.cocktailbody{
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+.cont-search{
+    width: 30em;
+    height: 6.5em;
+    background-color: white;
+    color: green;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    border-radius: 10px;
+}
+.cont-search input{
+    width: 27em;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 1.5em;
+    outline: none;
+}
+.cont-body{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    min-height: 50em;
+    text-align: center;
+    padding-top: 2.5em;
+    border-radius: 10px;
+}
+.cont-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5em;
+    width: 45em;
+    margin-left: 0.3em;
+    margin-top: 2em;
+}
+
+.cont-body h1{
+    font-size: larger;
+    color: green;
+}
+.cockitems{
+    width: 15em;
+    height: 20em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.13);
+}
+.cockitems img{
+    width: 15em;
+    height: 9.5em;
+}
+.cockitems h3{
+    color: green;
+}
+.cockitems li{
+    width: 7.5em;
+    height: 2em;
+    list-style: none;
+    background-color: green;
+    border-radius: 5px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-size: large;
+    padding-top: 3px;
+    cursor: pointer;
+    position: relative;
+    left: 6em;
+    top: 2em;
+}
+#link{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.cockitems li:hover{
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.cockitems li:active{
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.loader{
+    margin: auto;
+    width: 10%;
+    font-size: 5em;
+    height: 5em;
+    color: green;
+    position: relative;
+    top: 1em;
+}
+.loader h1{
+    font-size: 30px;
+}
+.aboutnav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+    height: 5em;
+    color: green;
+    box-shadow: 2px 2px 2px 2px rgba(245, 245, 245, 0.637);
+}
+.aboutBody{
+    min-height: 40em;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 10px;
+}
+.aboutBody p{
+    font-size: larger;
+    width: 30em;
+    padding-left: 3em;
+    font-weight: 100;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.aboutnav li{
+    list-style: none;
+}
+#Link{
+    color: green;
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    background-color: white;
+    height: 10em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+.footer h1{
+    color: green;
+    margin-bottom: 2em;
+}
+.footer p{
+    font-size: medium;
+    width: 40em;
+    margin-bottom: 1em;
+}
+#p{
+    font-weight: bold;
+}
+.detailbody{
+    width: 70%;
+    margin: auto;
+    min-height: 35em;
+    background-color: white;
+    margin-top: 5em;
+    padding-top: 2.5em;
+    border-radius: 10px;
+}
+.detailbody .cont{
+    padding-bottom: 3em;
+}
+
+.detailbody > div{
+    width: 30em;
+    margin: auto;
+    min-height: 15em;
+}
+.container{
+    display: flex;
+    gap:  1em;
+    margin-bottom: 1em;
+}
+.container h1{
+    color: green;
+}
+.container li{
+    color: white;
+    padding: 5px;
+    max-height: 2em;
+    list-style: none;
+    background-color: green;
+    border-radius: 10px;
+}
